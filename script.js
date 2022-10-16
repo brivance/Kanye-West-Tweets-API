@@ -1,10 +1,5 @@
-document.getElementById("weatherSubmit").addEventListener("click", function(event) {
+document.getElementById("button").addEventListener("click", function(event) {
   event.preventDefault();
-  const value = document.getElementById("weatherInput").value;
-  if (value === "")
-    return;
-  console.log(value);
-  
   
   const url = "https://api.kanye.rest";
   fetch(url)
@@ -15,9 +10,9 @@ document.getElementById("weatherSubmit").addEventListener("click", function(even
       
     let results = "";
     results += "<div class = 'quote'>"
-// 	results += '<p>"https://placebear.com/200/300.png" width="150">';
+	  results += '<p>' + json.quote + '</p>';
       
       results += "</div>" //today class
-      document.getElementById("weatherResults").innerHTML = results;
+      document.getElementById("newHtml").innerHTML = results;
     });
 });
