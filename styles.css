@@ -1,21 +1,113 @@
-.top-header {
+h1, #button {
+    color: #593523;
+}
+
+h1 {
     text-align: center;
     font-size: 40px;
 }
 
-.img {
-  width: 100px;
-  padding-bottom: 30px;
-  text-align: center;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 5px solid #593523;
+  border-radius: 50%;
+}
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.quote {
+    text-align: center;
+    display: block;
+  margin: auto;
+    
 }
 
 body {
   padding: 20px 100px 0px 100px;
-  background: #f3f3f3;
+  background: #ECD4C0;
 }
 
-button {
+#button {
   font-family: 'Arvo';
-  font-size: 3em;
+  font-size: 100%;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#button:hover{
+    color: #ECD4C0;
+}
+
+#button:visited {
+    color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #593523;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+a:static {
+    color: #FF5400;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    color: #FF0000;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  position: absolute;
+  text-align: left;
+  width: 40%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .centered {
+  
+  font-size: 50%;
+  
+}
+  
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .centered {
+  
+  font-size: 75%;
+  
+}
 }
