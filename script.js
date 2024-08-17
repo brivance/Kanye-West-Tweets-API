@@ -9,13 +9,13 @@ document.getElementById("button").addEventListener("click", function(event) {
       console.log(json)
       
     let results = "";
-    //results += "<div class = 'quote'>"
+
     results += '<div class="container">'
     results += '<img src="kanye-tweet.jpeg" alt="Kanye tweet" class="center1">'
 	  results += '<div class="centered">'+ json.quote + '</div>';
       
       results += "</div>" 
-     // results += "</div>"
+
       document.getElementById("newHtml").innerHTML = results;
     });
 });

@@ -4,15 +4,16 @@ h1, #button {
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+    color: #000000;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  border: 5px solid #593523;
+  width: 25%;
+  border: 2px solid #000000;
   border-radius: 50%;
 }
 .center1 {
@@ -31,7 +32,7 @@ h1 {
 
 body {
   padding: 20px 100px 0px 100px;
-  background: #ECD4C0;
+  background: white;
 }
 
 #button {
@@ -42,6 +43,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+  color: #202020;
 }
 
 #button:hover{
@@ -57,7 +59,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #593523;
+  background-color: white;
   color: white;
   text-align: center;
   padding: 10px;
@@ -83,7 +85,6 @@ a:hover{
 .centered {
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
   font-size: 100%;
-  font-weight: bold;
   position: absolute;
   text-align: left;
   width: 40%;
