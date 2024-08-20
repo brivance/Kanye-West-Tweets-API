@@ -31,7 +31,7 @@ h1 {
 }
 
 body {
-  padding: 20px 100px 0px 100px;
+  padding: 20px 100px 100px 100px;
   background: white;
 }
 
@@ -84,7 +84,7 @@ a:hover{
 
 .centered {
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 100%;
+  font-size: 150%;
   position: absolute;
   text-align: left;
   width: 40%;
@@ -108,7 +108,7 @@ a:hover{
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .centered {
   
-  font-size: 75%;
+  font-size: 100%;
   
 }
 }
