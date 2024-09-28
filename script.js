@@ -12,7 +12,7 @@ document.getElementById("button").addEventListener("click", function(event) {
 
     results += '<div class="container">'
     results += '<img src="kanye-tweet-small2.jpg" alt="Kanye tweet" class="center1">'
-	  results += '<div class="centered">'+ json.quote + '</div>';
+	  results += '<div class="centered"><p>'+ json.quote + '</p></div>';
       
       results += "</div>" 
 
